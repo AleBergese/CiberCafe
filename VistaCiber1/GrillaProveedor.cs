@@ -13,6 +13,9 @@ namespace VistaCiber1
 {
     public partial class GrillaProveedor : Form
     {
+        principal principal = new principal();
+
+        public List<proveedor> ListaProveedor;
         public GrillaProveedor()
         {
             InitializeComponent();
@@ -33,7 +36,11 @@ namespace VistaCiber1
 
         private void btnBajaPro_Click(object sender, EventArgs e)
         {
-            EliminarProveedor fmr = new EliminarProveedor();
+            proveedor ProSelec = grillaPro.SelectedRows[0].DataBoundItem as proveedor;
+            principal = new principal();
+            principal.BajaProveedor(ProSelec.idProveedor);
+
+            GrillaProveedor fmr = new GrillaProveedor();
             fmr.Show();
             this.Hide();
         }

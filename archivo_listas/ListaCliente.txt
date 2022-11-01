@@ -1,1 +1,1 @@
-[{"idCliente":0,"dni":777,"nombre":"Susana","apellido":"Pepe","telefono":0,"direccion":"micasa"},{"idCliente":0,"dni":123,"nombre":"asd","apellido":"asd","telefono":0,"direccion":"asd"},{"idCliente":123,"dni":645,"nombre":"fgd","apellido":"gfd","telefono":0,"direccion":"hfg"},{"idCliente":765,"dni":765,"nombre":"fghj","apellido":"ghj","telefono":0,"direccion":"ghj"},{"idCliente":543,"dni":453,"nombre":"fgs","apellido":"dfg","telefono":0,"direccion":"fgjh"},{"idCliente":5432,"dni":879,"nombre":"Ale","apellido":"Bergese","telefono":0,"direccion":"ksdfjlksd"}]
+[]

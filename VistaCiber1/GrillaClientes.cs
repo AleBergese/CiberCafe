@@ -13,6 +13,9 @@ namespace VistaCiber1
 {
     public partial class GrillaClientes : Form
     {
+        principal principal = new principal();
+
+        public List<cliente> ListaCliente;
         public GrillaClientes()
         {
             InitializeComponent();
@@ -46,9 +49,14 @@ namespace VistaCiber1
 
         private void btnEliminarCliente_Click(object sender, EventArgs e)
         {
-            
-            EliminarEmpleado fmr = new EliminarEmpleado();
+
+            cliente CliSelec = grillaCliente.SelectedRows[0].DataBoundItem as cliente;
+            principal = new principal();
+            principal.BajaCliente(CliSelec.idCliente);
+
+            GrillaClientes fmr = new GrillaClientes();
             fmr.Show();
+            this.Hide();
         }
     }
 }

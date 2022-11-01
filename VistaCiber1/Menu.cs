@@ -27,18 +27,21 @@ namespace VistaCiber1
         {
             GrillaClientes fmr = new GrillaClientes();
             fmr.Show();
+            this.Hide();
         }
 
         private void btnEmpleado_Click(object sender, EventArgs e)
         {
             GrillaEmpleado fmr = new GrillaEmpleado();
             fmr.Show();
+            this.Hide();
         }
 
         private void btnProveedor_Click(object sender, EventArgs e)
         {
             GrillaProveedor fmr = new GrillaProveedor();
             fmr.Show();
+            this.Hide();
         }
     }
 }

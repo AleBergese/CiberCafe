@@ -56,7 +56,7 @@
             this.telefonoDataGridViewTextBoxColumn,
             this.direccionDataGridViewTextBoxColumn});
             this.grillaCliente.DataSource = this.clienteBindingSource;
-            this.grillaCliente.Location = new System.Drawing.Point(91, 42);
+            this.grillaCliente.Location = new System.Drawing.Point(91, 44);
             this.grillaCliente.Name = "grillaCliente";
             this.grillaCliente.Size = new System.Drawing.Size(644, 150);
             this.grillaCliente.TabIndex = 0;
@@ -103,7 +103,7 @@
             // 
             // btnAltaCli
             // 
-            this.btnAltaCli.Location = new System.Drawing.Point(91, 286);
+            this.btnAltaCli.Location = new System.Drawing.Point(91, 285);
             this.btnAltaCli.Name = "btnAltaCli";
             this.btnAltaCli.Size = new System.Drawing.Size(75, 23);
             this.btnAltaCli.TabIndex = 1;
@@ -113,7 +113,7 @@
             // 
             // btnModifCliente
             // 
-            this.btnModifCliente.Location = new System.Drawing.Point(303, 285);
+            this.btnModifCliente.Location = new System.Drawing.Point(388, 285);
             this.btnModifCliente.Name = "btnModifCliente";
             this.btnModifCliente.Size = new System.Drawing.Size(75, 23);
             this.btnModifCliente.TabIndex = 2;
@@ -123,7 +123,7 @@
             // 
             // btnEliminarCliente
             // 
-            this.btnEliminarCliente.Location = new System.Drawing.Point(493, 286);
+            this.btnEliminarCliente.Location = new System.Drawing.Point(660, 285);
             this.btnEliminarCliente.Name = "btnEliminarCliente";
             this.btnEliminarCliente.Size = new System.Drawing.Size(75, 23);
             this.btnEliminarCliente.TabIndex = 4;

@@ -28,9 +28,10 @@ namespace VistaCiber1
             nuevoCliente.dni = int.Parse(boxDniCliente.Text);
             nuevoCliente.direccion = boxDireccionCliente.Text;
             nuevoCliente.idCliente = int.Parse(boxIdCliente.Text);
+            nuevoCliente.telefono = int.Parse(boxTelefonoCliente.Text);
 
             principal = new principal();
-            principal.RellenarLista();
+            principal.RellenarLista();  
             principal.AltaCliente(nuevoCliente, nuevoCliente.dni);
 
             GrillaClientes fmr = new GrillaClientes();
@@ -38,6 +39,11 @@ namespace VistaCiber1
             this.Hide();
 
             //Llamamos la funcion de dar de alta el cliente y que registre los datos que colocamos en las text box
+        }
+
+        private void AltaCliente_Load(object sender, EventArgs e)
+        {
+
         }
     }
 } 

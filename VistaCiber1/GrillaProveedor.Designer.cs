@@ -56,7 +56,7 @@
             this.telefonoDataGridViewTextBoxColumn,
             this.direccionDataGridViewTextBoxColumn});
             this.grillaPro.DataSource = this.proveedorBindingSource;
-            this.grillaPro.Location = new System.Drawing.Point(80, 45);
+            this.grillaPro.Location = new System.Drawing.Point(91, 44);
             this.grillaPro.Name = "grillaPro";
             this.grillaPro.Size = new System.Drawing.Size(644, 150);
             this.grillaPro.TabIndex = 0;
@@ -103,7 +103,7 @@
             // 
             // btnAltaPro
             // 
-            this.btnAltaPro.Location = new System.Drawing.Point(80, 297);
+            this.btnAltaPro.Location = new System.Drawing.Point(91, 285);
             this.btnAltaPro.Name = "btnAltaPro";
             this.btnAltaPro.Size = new System.Drawing.Size(75, 23);
             this.btnAltaPro.TabIndex = 1;
@@ -113,7 +113,7 @@
             // 
             // btnModPro
             // 
-            this.btnModPro.Location = new System.Drawing.Point(306, 297);
+            this.btnModPro.Location = new System.Drawing.Point(388, 285);
             this.btnModPro.Name = "btnModPro";
             this.btnModPro.Size = new System.Drawing.Size(75, 23);
             this.btnModPro.TabIndex = 2;
@@ -123,11 +123,11 @@
             // 
             // btnBajaPro
             // 
-            this.btnBajaPro.Location = new System.Drawing.Point(567, 296);
+            this.btnBajaPro.Location = new System.Drawing.Point(660, 285);
             this.btnBajaPro.Name = "btnBajaPro";
             this.btnBajaPro.Size = new System.Drawing.Size(75, 23);
             this.btnBajaPro.TabIndex = 3;
-            this.btnBajaPro.Text = "Baja";
+            this.btnBajaPro.Text = "Eliminar";
             this.btnBajaPro.UseVisualStyleBackColor = true;
             this.btnBajaPro.Click += new System.EventHandler(this.btnBajaPro_Click);
             // 

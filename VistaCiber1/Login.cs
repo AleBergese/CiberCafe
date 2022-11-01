@@ -49,6 +49,7 @@ namespace VistaCiber1
                     MessageBox.Show("Acceso al sistema");
                     Menu fmr = new Menu();
                     fmr.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -73,7 +74,8 @@ namespace VistaCiber1
         {
             //Validamos el nombre y la contraseña de la pantalla de login
 
-            return (nombre == "Alejandro") && (clave == "pepito");
+            return (nombre == "Alejandro") && (clave == "123");
+            
         }
     }
 }

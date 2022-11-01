@@ -28,6 +28,7 @@ namespace VistaCiber1
             clienteModificado.dni = int.Parse(boxDniClienteM.Text);
             clienteModificado.direccion = boxDireccionClienteM.Text;
             clienteModificado.idCliente = int.Parse(boxIdClienteM.Text);
+            clienteModificado.telefono = int.Parse(boxTelefonoClienteM.Text);
 
             principal = new principal();
             principal.RellenarLista();

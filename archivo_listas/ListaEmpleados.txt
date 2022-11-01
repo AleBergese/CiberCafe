@@ -1,1 +1,1 @@
-[{"idEmpleados":0,"dni":432,"nombre":"gfds","apellido":"gfds","telefono":0,"direccion":"gfds"},{"idEmpleados":7865,"dni":5687,"nombre":"fgjh","apellido":"jghf","telefono":0,"direccion":"gfh"},{"idEmpleados":53425,"dni":5432,"nombre":"dfsa","apellido":"fads","telefono":0,"direccion":"fasd"}]
+[{"idEmpleados":423,"dni":32,"nombre":"fsd","apellido":"fsd","telefono":432,"direccion":"sfd"}]

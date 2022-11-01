@@ -28,6 +28,7 @@ namespace VistaCiber1
             nuevoProveedor.dni = int.Parse(boxDniPro.Text);
             nuevoProveedor.direccion = boxDireccionPro.Text;
             nuevoProveedor.idProveedor = int.Parse(boxIdPro.Text);
+            nuevoProveedor.telefono = int.Parse(boxTelefonoPro.Text);
 
             principal = new principal();
             principal.RellenarLista();

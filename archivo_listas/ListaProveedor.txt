@@ -1,1 +1,1 @@
-[]
+[{"idProveedor":95678,"dni":6345,"nombre":"dfgh","apellido":"hdfg","telefono":8658765,"direccion":"hfgdhfg"}]

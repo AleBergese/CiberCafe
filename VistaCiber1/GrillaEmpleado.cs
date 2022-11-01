@@ -13,6 +13,9 @@ namespace VistaCiber1
 {
     public partial class GrillaEmpleado : Form
     {
+        principal principal = new principal();
+
+        public List<empleados> ListaEmpleados;
         public GrillaEmpleado()
         {
             InitializeComponent();
@@ -36,7 +39,7 @@ namespace VistaCiber1
             principal instanciaPrincipal = new principal();
             instanciaPrincipal.RellenarLista();
 
-            dataGridView1.DataSource = instanciaPrincipal.ValidarEmpleados();
+            gridEmpl.DataSource = instanciaPrincipal.ValidarEmpleados();
 
             //Cargamos la persistencia de datos en la grilla para que valide que los datos ingresados son correctos y pueda registrarlos
 
@@ -50,8 +53,13 @@ namespace VistaCiber1
 
         private void btnEliminarEmpleado_Click(object sender, EventArgs e)
         {
-            EliminarEmpleado fmr = new EliminarEmpleado();
+            empleados EmpSelec = gridEmpl.SelectedRows[0].DataBoundItem as empleados;
+            principal = new principal();
+            principal.BajaEmpleado(EmpSelec.idEmpleados);
+
+            GrillaEmpleado fmr = new GrillaEmpleado();
             fmr.Show();
+            this.Hide();
         }
     }
 }

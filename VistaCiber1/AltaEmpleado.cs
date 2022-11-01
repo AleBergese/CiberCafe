@@ -70,6 +70,7 @@ namespace VistaCiber1
           nuevoEmpleado.dni = int.Parse(boxDniEmpleado.Text);
           nuevoEmpleado.direccion = boxDireccionEmpleado.Text;
           nuevoEmpleado.idEmpleados = int.Parse(boxIdEmpleado.Text);
+          nuevoEmpleado.telefono = int.Parse(boxTelefonoEmpleado.Text);
 
           principal = new principal();
           principal.RellenarLista();

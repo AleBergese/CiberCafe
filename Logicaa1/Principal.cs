@@ -50,6 +50,7 @@ namespace Logicaa1
         }
         public void BajaCliente(int idCliente)
         {
+            ListaCliente = ValidarCliente();
             cliente nuevoCliente = new cliente();
             var clienteEliminado = ListaCliente.Find(x => idCliente == x.idCliente);
             ListaCliente.Remove(clienteEliminado);
@@ -95,6 +96,7 @@ namespace Logicaa1
         }
         public void BajaEmpleado(int idEmpleado)
         {
+            ListaEmpleados = ValidarEmpleados();
             empleados nuevoEmpleado = new empleados();
             var empleadoEliminado = ListaEmpleados.Find(x => idEmpleado == x.idEmpleados);
             ListaEmpleados.Remove(empleadoEliminado);
@@ -140,6 +142,7 @@ namespace Logicaa1
         }
         public void BajaProveedor(int idProveedor)
         {
+            ListaProveedor = ValidarProveedor();
             proveedor nuevoProveedor = new proveedor();
             var proveedorEliminado = ListaProveedor.Find(x => idProveedor == x.idProveedor);
             ListaProveedor.Remove(proveedorEliminado);

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gridEmpl = new System.Windows.Forms.DataGridView();
             this.btnAltaEmpleado = new System.Windows.Forms.Button();
             this.btnModEmpleado = new System.Windows.Forms.Button();
             this.btnEliminarEmpleado = new System.Windows.Forms.Button();
@@ -40,31 +40,31 @@
             this.telefonoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.direccionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empleadosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridEmpl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empleadosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // gridEmpl
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gridEmpl.AutoGenerateColumns = false;
+            this.gridEmpl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridEmpl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idEmpleadosDataGridViewTextBoxColumn,
             this.dniDataGridViewTextBoxColumn,
             this.nombreDataGridViewTextBoxColumn,
             this.apellidoDataGridViewTextBoxColumn,
             this.telefonoDataGridViewTextBoxColumn,
             this.direccionDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.empleadosBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(87, 29);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(643, 150);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.gridEmpl.DataSource = this.empleadosBindingSource;
+            this.gridEmpl.Location = new System.Drawing.Point(91, 44);
+            this.gridEmpl.Name = "gridEmpl";
+            this.gridEmpl.Size = new System.Drawing.Size(643, 150);
+            this.gridEmpl.TabIndex = 0;
+            this.gridEmpl.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnAltaEmpleado
             // 
-            this.btnAltaEmpleado.Location = new System.Drawing.Point(87, 272);
+            this.btnAltaEmpleado.Location = new System.Drawing.Point(91, 285);
             this.btnAltaEmpleado.Name = "btnAltaEmpleado";
             this.btnAltaEmpleado.Size = new System.Drawing.Size(75, 23);
             this.btnAltaEmpleado.TabIndex = 1;
@@ -74,7 +74,7 @@
             // 
             // btnModEmpleado
             // 
-            this.btnModEmpleado.Location = new System.Drawing.Point(291, 271);
+            this.btnModEmpleado.Location = new System.Drawing.Point(388, 285);
             this.btnModEmpleado.Name = "btnModEmpleado";
             this.btnModEmpleado.Size = new System.Drawing.Size(75, 23);
             this.btnModEmpleado.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             // btnEliminarEmpleado
             // 
-            this.btnEliminarEmpleado.Location = new System.Drawing.Point(462, 271);
+            this.btnEliminarEmpleado.Location = new System.Drawing.Point(659, 285);
             this.btnEliminarEmpleado.Name = "btnEliminarEmpleado";
             this.btnEliminarEmpleado.Size = new System.Drawing.Size(75, 23);
             this.btnEliminarEmpleado.TabIndex = 3;
@@ -140,11 +140,11 @@
             this.Controls.Add(this.btnEliminarEmpleado);
             this.Controls.Add(this.btnModEmpleado);
             this.Controls.Add(this.btnAltaEmpleado);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.gridEmpl);
             this.Name = "GrillaEmpleado";
             this.Text = "GrillaEmpleado";
             this.Load += new System.EventHandler(this.GrillaEmpleado_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridEmpl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.empleadosBindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -152,7 +152,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView gridEmpl;
         private System.Windows.Forms.DataGridViewTextBoxColumn idEmpleadosDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dniDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;

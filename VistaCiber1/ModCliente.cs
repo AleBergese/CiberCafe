@@ -22,6 +22,8 @@ namespace VistaCiber1
 
         private void btnModCLi1_Click(object sender, EventArgs e)
         {
+           
+
             clienteModificado = new cliente();
             clienteModificado.nombre = boxNombreClienteM.Text;
             clienteModificado.apellido = boxApellidoClienteM.Text;

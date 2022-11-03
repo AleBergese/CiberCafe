@@ -32,6 +32,7 @@
             this.btnEmpleado = new System.Windows.Forms.Button();
             this.btnProveedor = new System.Windows.Forms.Button();
             this.txtMenu = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCliente
@@ -74,11 +75,22 @@
             this.txtMenu.Text = "Menu ABM";
             this.txtMenu.Click += new System.EventHandler(this.txtMenu_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(305, 283);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(104, 23);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.Text = "Cerrar sesión";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(469, 450);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.txtMenu);
             this.Controls.Add(this.btnProveedor);
             this.Controls.Add(this.btnEmpleado);
@@ -96,5 +108,6 @@
         private System.Windows.Forms.Button btnEmpleado;
         private System.Windows.Forms.Button btnProveedor;
         private System.Windows.Forms.Label txtMenu;
+        private System.Windows.Forms.Button btnClose;
     }
 }

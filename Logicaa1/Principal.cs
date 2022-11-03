@@ -34,6 +34,8 @@ namespace Logicaa1
         {
             var clienteModificado = ListaCliente.Find(x => idcliente == x.idCliente);
 
+            ListaCliente = ValidarCliente();
+
             clienteModificado.idCliente = clientenuevo.idCliente;
             clienteModificado.dni = clientenuevo.dni;
             clienteModificado.nombre = clientenuevo.nombre;
@@ -80,6 +82,8 @@ namespace Logicaa1
         {
             var empleadoModificado = ListaEmpleados.Find(x => idEmpleado == x.idEmpleados);
 
+            ListaEmpleados = ValidarEmpleados();
+
             empleadoModificado.idEmpleados = empleadoNuevo.idEmpleados;
             empleadoModificado.dni = empleadoNuevo.dni;
             empleadoModificado.nombre = empleadoNuevo.nombre;
@@ -124,6 +128,8 @@ namespace Logicaa1
         public void ModificarProveedor(proveedor proveedorNuevo, int idProveedor, int telefono)
         {
             var proveedorModificado = ListaProveedor.Find(x => idProveedor == x.idProveedor);
+
+            ListaProveedor = ValidarProveedor();
 
             proveedorModificado.idProveedor = proveedorNuevo.idProveedor;
             proveedorModificado.dni = proveedorNuevo.dni;

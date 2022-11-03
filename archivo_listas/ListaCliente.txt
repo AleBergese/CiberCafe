@@ -1,1 +1,1 @@
-[]
+[{"idCliente":55,"dni":7564,"nombre":"Ale","apellido":"Ale","telefono":12321,"direccion":"Ale"}]

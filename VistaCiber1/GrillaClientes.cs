@@ -58,5 +58,10 @@ namespace VistaCiber1
             fmr.Show();
             this.Hide();
         }
+
+        private void grillaCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

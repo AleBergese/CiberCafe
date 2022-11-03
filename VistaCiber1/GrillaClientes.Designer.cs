@@ -60,6 +60,7 @@
             this.grillaCliente.Name = "grillaCliente";
             this.grillaCliente.Size = new System.Drawing.Size(644, 150);
             this.grillaCliente.TabIndex = 0;
+            this.grillaCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grillaCliente_CellContentClick);
             // 
             // idClienteDataGridViewTextBoxColumn
             // 

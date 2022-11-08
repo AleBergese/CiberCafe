@@ -1,0 +1,1 @@
+[{"idCliente":55,"dni":123231,"nombre":"Ale","apellido":"Bergese","telefono":123321,"direccion":"Mi casa"},{"idCliente":12,"dni":12332,"nombre":"Ale","apellido":"Bergese","telefono":213212,"direccion":"adasad"}]
